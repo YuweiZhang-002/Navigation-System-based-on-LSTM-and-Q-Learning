@@ -111,7 +111,7 @@ This system simulates an urban road network as a 3×4 grid with 12 intersection 
  8 |  9 | 10 | 11
 ```
 
-默认起点 / Default start：节点 0 / Node 4（第一行左端 / first row left）
+默认起点 / Default start：节点 0 / Node 1（第一行左端 / first row left）
 默认终点 / Default goal：节点 11 / Node 11（右下角 / bottom-right）
 
 agent 每步可向上、下、左、右移动，越界或逆向行驶会触发惩罚。
