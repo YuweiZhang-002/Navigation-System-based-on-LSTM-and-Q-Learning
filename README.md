@@ -111,7 +111,7 @@ This system simulates an urban road network as a 3×4 grid with 12 intersection 
  8 |  9 | 10 | 11
 ```
 
-默认起点 / Default start：节点 4 / Node 4（第二行左端 / second row left）
+默认起点 / Default start：节点 0 / Node 4（第一行左端 / first row left）
 默认终点 / Default goal：节点 11 / Node 11（右下角 / bottom-right）
 
 agent 每步可向上、下、左、右移动，越界或逆向行驶会触发惩罚。
@@ -161,7 +161,7 @@ Computed by `penalty_dis()`: Manhattan distance from current position to goal mu
 | `Cong_Weight` (β) | 0.5 | 未来拥堵折扣因子 / Future congestion discount factor |
 | `Dec_Weight` (γ) | 0.95 | Q-Learning 折扣因子 / Q-Learning discount factor |
 | `Learning_Rate` (λ) | 0.1 | Q-Table 学习率 / Q-Table learning rate |
-| `Epsilon_start` | 1.0 | 初始探索率 / Initial exploration rate |
+| `Epsilon_start` | 0.5 | 初始探索率 / Initial exploration rate |
 | `Epsilon_min` | 0.05 | 最低探索率 / Minimum exploration rate |
 | `Epsilon_decay` | 0.99 | 探索率衰减系数 / Exploration rate decay |
 
